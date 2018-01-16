@@ -1,0 +1,41 @@
+{
+  "name": "tiengviet",
+  "version": "1.0.0",
+  "description": "Convert tieng viet to tieqviet",
+  "main": "dist/tiengviet.min.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "thanhtaivtt/tiengviet"
+  },
+  "keywords": [
+    "tiengviet",
+    "tieqviet"
+  ],
+  "author": [
+    "thanhtaivtt",
+    "taivt@toidicode.com",
+    "https://toidicode.com"
+  ],
+  "ava": {
+    "files": [
+      "test.js"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "minify"
+    ]
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thanhtaivtt/tiengviet-module/issues"
+  },
+  "homepage": "https://github.com/thanhtaivtt/tiengviet-module#readme",
+  "dependencies": {
+    "ava": "^0.24.0"
+  }
+}
